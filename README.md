@@ -8,7 +8,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 with open("config.json", "r") as f:
     config = json.load(f)
 
-TOKEN = config[8317307798:AAFhi32HH2RjoRPRQsGoKDDAl8BhrOwMpy4]
+TOKEN = config[ 8317307798:AAFhi32HH2RjoRPRQsGoKDDAl8BhrOwMpy4 ]
 CHANNEL_LINK = config["channel_link"]
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
